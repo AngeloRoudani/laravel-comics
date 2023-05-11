@@ -23,6 +23,13 @@ Route::get('/', function () {
             'news',
             'shop'
         ],
+        'icons' => [
+            'resources/img/icon/fb.png',
+            'resources/img/icon/pr.png',
+            'resources/img/icon/pt.png',
+            'resources/img/icon/tw.png', 
+            'resources/img/icon/yt.png'
+        ]
     ];
 
     return view('home', $data);
