@@ -1,4 +1,11 @@
 <footer>
+    <div class="container">
+        <div class="row col-6">
 
-<h3>ciao</h3>
+        </div>
+        <div class="row col-6">
+            <img src="" alt="">
+        </div>
+    </div>
+
 </footer>

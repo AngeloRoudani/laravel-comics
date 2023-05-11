@@ -8,15 +8,28 @@
     @vite('resources/js/app.js')
 </head>
 <body>
-    @include('partials.header')
-
     <div class="container">
 
-        @yield('content')
+        @include('partials.header')
 
     </div>
 
-    @include('partials.footer')
+    <div class="myJumbo">
+    </div>
+    
+    <main>
+        <div class="container">
+
+            @yield('content')
+
+        </div>
+    </main>
+    
+
+        @include('partials.footer')
+        
+    
+    
 
 </body>
 </html>
