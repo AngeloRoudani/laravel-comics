@@ -2,7 +2,11 @@
 
 
 @section('title')
-    <div class="container">
+
+
+@section('content')
+
+<div class="container">
         <div class="row">
             @foreach($comics as $comic)
             <div class="card" style="width: 18rem;">
@@ -14,7 +18,5 @@
             @endforeach
         </div>
     </div>
-
-@section('content')
 
 @endsection
